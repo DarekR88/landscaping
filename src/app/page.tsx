@@ -14,18 +14,19 @@ export default function Home() {
           Crocket Landscaping
         </p>
       </div>
-      <div className="max-w-[1200px] flex flex-col lg:flex-row m-auto">
-        <div className="lg:w-[600px]">
+      <div className="max-w-[1200px] flex flex-col lg:flex-row m-auto my-6 lg:my-10">
+        <div className="lg:w-[600px] lg:h-[333px] overflow-hidden">
           <Image src={GardenImage} alt="walkway" />
         </div>
-        <div className="px-4 lg:w-[600px]">
+        <div className="flex px-4 pt-4 lg:text-xl lg:w-[600px] lg:h-[333px]">
           <p>
             Make your landscaping dreams come true with Crocket Landscaping.
             With our knowledgeable and hardworking staff there is no job too
             big, or too small. Every customer is important to us. Let us help
             you create a beautiful garden of flowers, or a bountiful fruit and
             vegetable garden. Want to revitalize your lawn? We offer aeration,
-            weeding, and fertilization services.
+            weeding, and fertilization services. When it comes to creating and
+            maintaining a beautiful home, we have your back.
           </p>
         </div>
       </div>
