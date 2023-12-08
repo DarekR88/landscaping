@@ -38,7 +38,7 @@ export function NavBar() {
           Request Service
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-24">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-24 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-100 via-gray-300 to-gray-500">
         <a
           href="tel:408-761-4606"
           target="_blank"
