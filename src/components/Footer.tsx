@@ -12,7 +12,7 @@ export function Footer() {
         <Link href={"/"} className="font-Raleway text-2xl px-3">
           Crocket Landscaping
         </Link>
-        <Link href={"/contact"} className="text-xl">
+        <Link href={"/requestservice"} className="text-xl">
           Free Estimates!
         </Link>
       </div>
