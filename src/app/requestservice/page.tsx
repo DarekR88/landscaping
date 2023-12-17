@@ -25,16 +25,22 @@ export default function RequestService() {
           </div>
           <div className="flex flex-row max-w-[300px] m-auto justify-between my-3">
             <div>
-              <input type="checkbox" name="event" id="event" />
-              <label for="event">Landscaping</label>
+              <label>
+                <input type="checkbox" name="event" id="event" />
+                Landscaping
+              </label>
             </div>
             <div>
-              <input type="checkbox" name="family" id="family" />
-              <label for="event">Lawn</label>
+              <label>
+                <input type="checkbox" name="family" id="family" />
+                Lawn
+              </label>
             </div>
             <div>
-              <input type="checkbox" name="headshots" id="headshots" />
-              <label for="headshots">Sprinklers</label>
+              <label>
+                <input type="checkbox" name="headshots" id="headshots" />
+                Sprinklers
+              </label>
             </div>
           </div>
           <input
@@ -43,7 +49,9 @@ export default function RequestService() {
             className="w-[300px] lg:w-[400px] h-[100px] border-2 border-black"
             placeholder="Request Summary"
           />
-          <button className="w-[300px] h-[50px] mt-3 bg-[#074B17] text-white">Submit Request</button>
+          <button className="w-[300px] h-[50px] mt-3 bg-[#074B17] text-white">
+            Submit Request
+          </button>
         </form>
       </div>
     </>
